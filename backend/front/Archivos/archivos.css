@@ -1,0 +1,175 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+    
+   
+  }
+
+  .contenedor2{
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+
+  }
+  
+
+
+
+  .parte-media {
+    background-color: #faeded;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    border-right: 2px solid rgb(255, 255, 255);
+   
+
+  }
+  
+  .parte-derecho {
+    background-color: #faeded;
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+   
+  }
+
+  .parte-izquierda {
+    background-color: #faeded;
+    width: 15%;
+    border-right: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px; 
+  
+  }
+
+  .imagenPerfil{
+    border-radius: 100%;
+    width: 50%;
+    height: 50%;
+   
+  }
+
+
+
+  .perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size:large;  font-weight: 800;
+    
+
+  }
+  .perfil h3{
+ 
+    font-size:large;  font-weight: 800;
+    margin-top: 10px;
+    
+
+  }
+
+  a{
+    text-decoration: none;
+    font-weight: lighter;
+    color: black;
+  }
+
+
+  .menus{
+    padding-left: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+    gap: 40px;
+  }
+
+  .menus h3{
+    font-weight: lighter;
+    font-size:large
+   
+  }
+  
+   .menus a:hover{
+    background-color:rgb(74, 74, 97);
+    padding: 5px;
+    color: #fff9f9;
+    margin: 5px;
+    font-weight: 800;
+ 
+   
+  }
+
+
+  i{
+    margin-right: 1rem;
+    font-size: large;
+  }
+
+ .archivos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .visualArchivos{
+    width: 460px;
+    height: 360px;
+    border: 2px solid rgb(202, 201, 201);
+    box-shadow: inset 0px 0px 5px 2px rgba(177, 175, 175, 0.5);
+    border-radius: 15px;
+    margin: 15px;
+  }
+
+  .visualArchivos h6{
+    text-align: center;
+    margin: 2rem;
+  }
+
+  .carga{
+    border: none;
+    background: none;
+    box-shadow: none;
+    outline: none;
+    margin: 10px 20px 10px 0px;
+
+  
+    
+
+  }
+
+
+
+   
+
+    
+    
+    
+    
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+

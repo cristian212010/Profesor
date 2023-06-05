@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archivos </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" type="text/css" href="archivos.css">
+
+</head>
+
+<body>
+  <div class="contenedor">
+
+    <div class="parte-izquierda">
+
+      <div class="perfil">
+        <h3 style="margin-bottom: 2rem;">Camp Skiler.</h3>
+        <img src="images/Diseño sin título.png" alt="" class="imagenPerfil">
+        <h3>Maicol Estrada</h3>
+      </div>
+      <div class="menus">
+        <a href="/Home/home.html" style="display: flex;gap:2px;">
+          <i class="bi bi-house-door"> </i>
+          <h3 style="margin: 0px;">Home</h3>
+        </a>
+        <a href="/Estudiantes/Estudiantes.html" style="display: flex;gap:2px;">
+          <i class="bi bi-people"></i>
+          <h3 style="margin: 0px;">Estudiantes</h3>
+        </a>
+        <a href="archivos.html" style="display: flex;gap:2px;">
+          <i class="bi bi-bezier"></i>
+          <h3 style="margin: 0px; font-weight: 800;">Archivos</h3>
+        </a>
+        <a href="/enProceso.html" style="display: flex;gap:2px;">
+          <i class="bi bi-person-video3"></i>
+          <h3 style="margin: 0px;">Reuniones</h3>
+        </a>
+        <a href="/enProceso.html" style="display: flex;gap:2px;">
+          <i class="bi bi-envelope-at"></i>
+          <h3 style="margin: 0px;">Mensajes</h3>
+        </a>
+        <a href="/login/login.html" style="display: flex;gap:2px;color: brown;">
+          <i class="bi bi-x-square"></i>
+          <h3 style="margin: 0px;">salir</h3>
+        </a>
+
+
+      </div>
+    </div>
+
+    <div class="parte-media d-flex">
+      <div class="archivos">
+        <h1 style="font-weight: 800;">Formato de Achivos</h1>
+        <button type="button" class="btn btn-primary " style="text-align: start;"><i class="bi bi-file-earmark-code"></i>Archivo.ex</button>
+        <button type="button" class="btn btn-secondary" style="text-align: start;"><i class="bi bi-card-list"></i>texto.tx</button>
+        <button type="button" class="btn btn-success" style="text-align: start;"><i class="bi bi-card-image"></i>Imagenes.jpg</button>
+        <button type="button" class="btn btn-danger" style="text-align: start;"><i class="bi bi-file-earmark-music"></i>musica.mp3</button>
+        <button type="button" class="btn btn-warning" style="text-align: start;"><i class="bi bi-file-earmark-pdf"></i>Archivo.pdf</button>
+        <button type="button" class="btn btn-info" style="text-align: start;"><i class="bi bi-file-earmark-spreadsheet"></i>mode.nsi</button>
+      </div>
+      <div class="m-4">
+        <button type="button" class="btn btn-info" style="text-align: start;margin-left: 15px;">Imprimir</button>
+        <div class="visualArchivos">
+          <h6>Adminitracion de Archivos...</h6>
+        </div>
+      </div>
+
+      
+
+
+    </div>
+
+    <div class="parte-derecho ">
+      <div class="container mt-4 ">
+        <h2>Subir Archivo</h2>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="archivo">Seleccionar Archivo</label>
+            <input type="file" class="carga" id="archivo" name="archivo">
+          </div>
+          <button type="submit" class="btn btn-primary">Subir</button>
+        </form>
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+  <!-- APACHE Echars -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.2/echarts.min.js"></script>
+
+
+  
+
+</body>
+
+</html>
